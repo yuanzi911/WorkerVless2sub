@@ -7,12 +7,28 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
+ 'fast.ificould.xyz:8443#圆子私用订阅',
+ 'dash.cloudflare.com:8443#圆子官方优选',
+ 'asbaa.geotrust.pp.ua:8443#圆子官方优选',
+ 'bestcf.030101.xyz:8443#圆子官方优选',
+ 'cfyx.sbjc.shop:8443#圆子官方优选',
+ 'visa.com.tw:8443#圆子官方优选',
+ 'visa.com.hk:8443#圆子官方优选',
+ 'visa.com:8443#圆子官方优选',
+ 'visa.com.sg:8443#圆子官方优选',
+ 'hcaptcha.com:8443#圆子官方优选',
+ 'hk0.899994.xyz:8443#圆子官方优选',
+ 'cdn.idouyin.tk:8443#圆子官方优选',
+ 'hk.wish.ml:8443#圆子官方优选',
+ 'cfd.ipa.monster:8443#圆子官方优选',
+ 'ct.cfyun.top:8443#圆子官方优选',
+ 'visakorea.com:8443#圆子官方优选',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	'https://ipdb.api.030101.xyz/?type=cfv4;proxy&country=true', 
+	'https://raw.githubusercontent.com/yuanzi911/yxip1/main/%E4%BC%98%E9%80%89ip.txt', 
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
@@ -29,7 +45,7 @@ let addressesnotlsapi = [
 
 let DLS = 8;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
+	//'https://raw.githubusercontent.com/yuanzi911/yxip1/main/%E4%BC%98%E9%80%89ip.txt', 
 ];
 
 let subconverter = "subapi-loadbalancing.pages.dev"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
