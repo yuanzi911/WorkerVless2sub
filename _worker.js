@@ -28,9 +28,7 @@ let addresses = [
 // 设置优选地址api接口
 let addressesapi = [
  'https://raw.githubusercontent.com/yuanzi911/yxip1/main/%E4%BC%98%E9%80%89ip.txt',
- 'https://addressesapi.090227.xyz/CloudFlareYes',
  'https://addressesapi.090227.xyz/ct',
- 'https://addressesapi.090227.xyz/cmcc',
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
