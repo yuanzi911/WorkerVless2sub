@@ -17,8 +17,13 @@ let addresses = [
  'cfd.ipa.monster:2096#圆子官方优选',
  'visakorea.com:2096#圆子官方优选',
  'cf.090227.xyz:2096#圆子官方优选',
- 'aliyun.2096.us.kg:2096#圆子优选'
-];
+ 'aliyun.2096.us.kg:2096#圆子优选',
+ 'asbaa.geotrust.pp.ua:443#官方优选',
+ 'www.shopify.com:443#官方优选',
+ 'www.gov.ua:8443#官方优选',
+ 'www.hugedomains.com:2096#官方优选',
+ 'www.udacity.com:2096#官方优选'
+ ];
 
 // 设置优选地址api接口
 let addressesapi = [
