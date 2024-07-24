@@ -5,25 +5,18 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cfip.xxxxxxxx.tk:8443#优选官方线路',
- 'fast.ificould.xyz:8443#圆子私用订阅',
- 'dash.cloudflare.com:8443#圆子官方优选',
- 'asbaa.geotrust.pp.ua:8443#圆子官方优选',
- 'bestcf.030101.xyz:8443#圆子官方优选',
- 'cfyx.sbjc.shop:8443#圆子官方优选',
- 'visa.com.tw:8443#圆子官方优选',
- 'visa.com.hk:8443#圆子官方优选',
- 'visa.com:8443#圆子官方优选',
- 'visa.com.sg:8443#圆子官方优选',
- 'hcaptcha.com:8443#圆子官方优选',
- 'hk0.899994.xyz:8443#圆子官方优选',
- 'cdn.idouyin.tk:8443#圆子官方优选',
- 'hk.wish.ml:8443#圆子官方优选',
- 'cfd.ipa.monster:8443#圆子官方优选',
- 'ct.cfyun.top:8443#圆子官方优选',
- 'visakorea.com:8443#圆子官方优选',
- 'cf.090227.xyz:8443#圆子官方优选',
+	'fast.ificould.xyz:2096#圆子私用订阅',
+ 'bestcf.030101.xyz:2096#圆子官方优选',
+ 'cfyx.sbjc.shop:2096#圆子官方优选',
+ 'visa.com.tw:2096#圆子官方优选',
+ 'visa.com:2096#圆子官方优选',
+ 'visa.com.sg:2096#圆子官方优选',
+ 'hcaptcha.com:2096#圆子官方优选',
+ 'cdn.idouyin.tk:2096#圆子官方优选',
+ 'hk.wish.ml:2096#圆子官方优选',
+ 'cfd.ipa.monster:2096#圆子官方优选',
+ 'visakorea.com:2096#圆子官方优选',
+ 'cf.090227.xyz:2096#圆子官方优选',
  'aliyun.2096.us.kg:2096#圆子优选'
 ];
 
