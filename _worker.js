@@ -5,24 +5,18 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'fast.ificould.xyz:2096#圆子私用订阅',
+ 'fast.ificould.xyz:2096#圆子私用订阅',
  'bestcf.030101.xyz:2096#圆子官方优选',
- 'cfyx.sbjc.shop:2096#圆子官方优选',
- 'visa.com.tw:2096#圆子官方优选',
- 'visa.com:2096#圆子官方优选',
- 'visa.com.sg:2096#圆子官方优选',
- 'hcaptcha.com:2096#圆子官方优选',
- 'cdn.idouyin.tk:2096#圆子官方优选',
- 'hk.wish.ml:2096#圆子官方优选',
- 'cfd.ipa.monster:2096#圆子官方优选',
- 'visakorea.com:2096#圆子官方优选',
+ 'cfyx.sbjc.shop:443#圆子官方优选',
+ 'www.visa.com.tw:443#圆子官方优选',
+ 'www.visa.com:443#圆子官方优选',
+ 'www.visa.com.sg:443#圆子官方优选',
  'cf.090227.xyz:2096#圆子官方优选',
  'aliyun.2096.us.kg:2096#圆子优选',
- 'asbaa.geotrust.pp.ua:443#官方优选',
  'www.shopify.com:443#官方优选',
- 'www.gov.ua:8443#官方优选',
+ 'www.gov.ua:443#官方优选',
  'www.hugedomains.com:2096#官方优选',
- 'www.udacity.com:2096#官方优选'
+ 'www.udacity.com:8443#官方优选'
  ];
 
 // 设置优选地址api接口
