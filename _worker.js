@@ -6,7 +6,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	'cfip.xxxxxxxx.tk:8443#优选官方线路',
  'fast.ificould.xyz:8443#圆子私用订阅',
  'dash.cloudflare.com:8443#圆子官方优选',
  'asbaa.geotrust.pp.ua:8443#圆子官方优选',
@@ -22,7 +22,9 @@ let addresses = [
  'hk.wish.ml:8443#圆子官方优选',
  'cfd.ipa.monster:8443#圆子官方优选',
  'ct.cfyun.top:8443#圆子官方优选',
- 'visakorea.com:8443#圆子官方优选'
+ 'visakorea.com:8443#圆子官方优选',
+ 'cf.090227.xyz:8443#圆子官方优选',
+ 'aliyun.2096.us.kg:2096#圆子优选'
 ];
 
 // 设置优选地址api接口
