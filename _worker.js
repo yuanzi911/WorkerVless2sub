@@ -22,13 +22,12 @@ let addresses = [
  'hk.wish.ml:8443#圆子官方优选',
  'cfd.ipa.monster:8443#圆子官方优选',
  'ct.cfyun.top:8443#圆子官方优选',
- 'visakorea.com:8443#圆子官方优选',
+ 'visakorea.com:8443#圆子官方优选'
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
  'https://raw.githubusercontent.com/yuanzi911/yxip1/main/%E4%BC%98%E9%80%89ip.txt',
- 'https://addressesapi.090227.xyz/ct',
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
